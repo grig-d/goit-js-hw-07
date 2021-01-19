@@ -14,3 +14,9 @@
 .product-card__name--not-available::before {
   background-color: tomato;
 }
+
+/* task-3 */
+.js-gallery {
+  border-color: red;
+  border-style: solid;
+}
