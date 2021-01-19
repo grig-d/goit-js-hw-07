@@ -16,7 +16,8 @@
 }
 
 /* task-3 */
-.js-gallery {
+/* использую id вместо класса потому что "1. Разметку менять НЕЛЬЗЯ." (c) Alona */
+#gallery {
   border-color: red;
   border-style: solid;
 }
