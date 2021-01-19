@@ -95,3 +95,7 @@ const cardRoot = document.querySelector('#root');
 console.log(cardRoot);
 cardRoot.append(containerCardRef); // контейнер на странице
 
+console.log('////');
+console.log('////');
+console.log('////');
+console.log('////');
