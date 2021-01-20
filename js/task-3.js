@@ -23,9 +23,13 @@ const images = [
 ];
 
 // insertAdjacentHTML принимает строку, и можно собрать все данные в одну строку, через map.join, или reduce и сразу вставить через insertAdjacentHTML И тогда append отпадает
+const galleryRef = document.querySelector('#gallery');
+// galleryRef.insertAdjacentHTML(afterbegin, string)
 
 
-// // сделал с помощью append
+
+// // сделал с помощью append:
+
 // const createGalleryItem = image => {
 //   const imageContainerRef = document.createElement('li');
 //   const imageRef = document.createElement('img');
