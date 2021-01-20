@@ -1,6 +1,20 @@
 /* task-3 */
 /* использую id вместо класса потому что "1. Разметку менять НЕЛЬЗЯ." (c) Alona */
+
 #gallery {
-  border-color: red;
-  border-style: solid;
+  padding-left: 15px;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#gallery li {
+  margin-right: 15px;
+  flex-basis: calc((100% - 45px) / 3);
+}
+
+#gallery img {
+  display: block;
+  width: 100%;
 }
