@@ -16,7 +16,7 @@ const boxesRef = document.querySelector('#boxes');
 const inputRef = document.querySelector('#controls input');
 console.log(boxesRef);
 console.log(inputRef);
-console.dir(inputRef);
+console.dir(inputRef); 
 
 // const decrementBtn = document.querySelector('button[data-action="decrement"]');
 
