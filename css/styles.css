@@ -1,3 +1,10 @@
+.task {
+  color: #888;
+  padding-left: 8px;
+  font-size: 20px;
+  background-color: #eee;
+}
+
 /* task-3 */
 /* использую id вместо класса потому что "1. Разметку менять НЕЛЬЗЯ." (c) Alona */
 
